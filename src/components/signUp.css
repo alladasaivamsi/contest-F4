@@ -1,0 +1,139 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+.wrapper {
+  width: 100vw;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 30px;
+  color: white;
+  background-color: black;
+  border-bottom: 3px solid white;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.container {
+  margin-top: 5%;
+  margin-left: 10%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-bottom: 20px;
+}
+
+.container h1 {
+  font-size: 50px;
+}
+
+.name {
+  width: 80%;
+  height: 40px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-bottom: 2px solid white;
+  font-size: 20px;
+  padding: 5px;
+  padding-bottom: 15px;
+  outline: none;
+}
+
+.name::placeholder {
+  color: white;
+}
+
+.emailInput {
+  width: 80%;
+  height: 40px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-bottom: 2px solid white;
+  font-size: 20px;
+  padding: 5px;
+  padding-bottom: 15px;
+  outline: none;
+}
+
+.emailInput::placeholder {
+  color: white;
+}
+
+.passwordInput {
+  width: 80%;
+  height: 40px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-bottom: 2px solid white;
+  font-size: 20px;
+  padding: 5px;
+  padding-bottom: 15px;
+  outline: none;
+}
+
+.passwordInput::placeholder {
+  color: white;
+}
+
+.confirmPasswordInput {
+  width: 80%;
+  height: 40px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-bottom: 2px solid white;
+  font-size: 20px;
+  padding: 5px;
+  padding-bottom: 15px;
+  outline: none;
+}
+
+.confirmPasswordInput::placeholder {
+  color: white;
+}
+
+.signUpBtn {
+  width: 160px;
+  height: 40px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.errorField {
+  color: red;
+  font-size: 1.2rem;
+}
+
+.successField {
+  color: green;
+  font-size: 1.2rem;
+}

@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+.container {
+  margin-top: 5%;
+  margin-left: 10%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.container h1 {
+  font-size: 50px;
+}
+
+.profileData {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.profileData p {
+  font-size: 40px;
+}
+
+.logOutBtn {
+  width: 160px;
+  height: 40px;
+  font-size: 20px;
+  cursor: pointer;
+}
